@@ -1,0 +1,19 @@
+{
+  "author": "George Stagas <gstagas@gmail.com> (http://stagas.com)",
+  "name": "phaseshift",
+  "description": "Phase shift an array",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stagas/phaseshift.git"
+  },
+  "main": "phaseshift.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "engines": {
+    "node": "~0.6.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
