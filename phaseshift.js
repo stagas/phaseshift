@@ -1,6 +1,7 @@
 ;(function () {
   function phaseShift (arr, n, m1, m2) {
-    if ('number' !== typeof n) throw new TypeError('Invalid type: ' + typeof n)
+    if ('undefined' === typeof n) n = 1
+    else if ('number' !== typeof n) throw new TypeError('Invalid type: ' + typeof n)
     n = parseInt(n, 10)
     if (isNaN(n)) throw new TypeError(n + ' is NaN')
     if (n < 0)
